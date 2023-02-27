@@ -1,0 +1,26 @@
+{
+  "name": "mineb-proxy-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app"
+  },
+  "author": "min_eb",
+  "license": "ISC",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "chalk": "^4.1.0",
+    "connect-redis": "^6.1.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "https": "^1.0.0",
+    "redis": "^4.5.1",
+    "ssl-root-cas": "^1.3.1",
+    "vhost": "^3.0.2"
+  }
+}
